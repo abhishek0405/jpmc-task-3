@@ -19,6 +19,7 @@ class App extends Component<{}, IState> {
 
   renderGraph() {
     if (this.state.showGraph) {
+      //console.log(this.state.data);
       return (<Graph data={this.state.data}/>)
     }
   }
